@@ -1,25 +1,30 @@
 - Provisions VM's using Vagrant on VirtualBox
-    ``` vagrant up 
+    ``` 
+    vagrant up 
     ```
 - Makesure all VM's are provisioned and running
-    ``` vagrant status
+    ``` 
+    vagrant status
     ```
 - SSh into Ansible control VM
-    ``` vagrant ssh ansible-control
+    ``` 
+    vagrant ssh ansible-control
     ```
 - sync folder /vagrant is automatically mounted on all VM's. So host files can be access on this location
 
 - Install ansible on ansible-control VM
-    ``` sudo apt update
-        sudo apt install ansible
+    ``` 
+    sudo apt update
+    sudo apt install ansible
     ```
 - Make sure ansible is properly running on ansible-control VM
-    ``` ansible localhost -m command -a date #this should return the hostname 
+    ``` 
+    ansible localhost -m command -a date #this should return the hostname 
     ```
 - Add other VM's IP's (as per hosts_file) to /etc/hosts file on ansible-control and check to reach using host name
-    ``` vi /etc/hosts
-        #update host file with ip's and hostname
-        ping db01
+    ``` 
+    vi /etc/hosts  #update host file with ip's and hostname
+    ping db01
     ```
 
 - Setup SSH from ansible-control to other VMs
