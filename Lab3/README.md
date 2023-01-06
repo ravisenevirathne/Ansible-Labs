@@ -2,7 +2,7 @@
 
 ## Run playbook from ansible-control 
 ```
-nsible-playbook -i hosts playbook.yaml
+ansible-playbook -i hosts playbook.yaml
 ```
 
 ## Test Connectivity to webservers
