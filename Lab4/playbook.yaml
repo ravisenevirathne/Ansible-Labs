@@ -1,0 +1,11 @@
+- hosts: webservers
+  become: yes
+  vars:
+    http_port: 8000
+    https_port: 4443
+    html_welcome_msg: "Hello world New"
+    
+  tasks:
+    - include_tasks: tasks/apache_installer.yaml
+  handlers:
+    - include_tasks: handlers/main.yaml
