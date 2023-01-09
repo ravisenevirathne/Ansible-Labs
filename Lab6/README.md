@@ -1,9 +1,9 @@
 # Lab6 - Using Tags
 
-    Tags allow you to categorize item in the playbook and tasks. Helpful on large playbooks as it allows you to run specific part of playbook as needed.
-    - Use `--list-tags` to see the current tags `--list-tags`
-    - Use `always` keyword for common tasks
-    - Run playbooks using tags to only run certain items
+Tags allow you to categorize item in the playbook and tasks. Helpful on large playbooks as it allows you to run specific part of playbook as needed.
+- Use `--list-tags` to see the current tags `--list-tags`
+- Use `always` keyword for common tasks
+- Run playbooks using tags to only run certain items
 
 ## To view current tags
 ```
