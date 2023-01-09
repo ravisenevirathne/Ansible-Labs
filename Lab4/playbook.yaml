@@ -3,7 +3,7 @@
   vars:
     http_port: 8000
     https_port: 4443
-    html_welcome_msg: "Hello world New"
+    html_welcome_msg: "Hello world Today"
     
   tasks:
     - include_tasks: tasks/apache_installer.yaml
