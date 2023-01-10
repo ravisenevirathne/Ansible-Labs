@@ -15,3 +15,5 @@
 ## Lab7 - Ansible Variables
 
 ## Lab8 - Multiple inventory files
+
+## Lab9 - Setup MYSQL Server

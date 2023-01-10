@@ -1,4 +1,4 @@
-# Lab7 - Create Dev/Prod inventory file
+# Lab8 - Create Dev/Prod inventory file
 
 We can easily defined different environments with multiple inventory (hosts) files. In real world we will have different servers defined in these inventory files for Development and Production workloads.
 
