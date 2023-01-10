@@ -9,3 +9,9 @@
 ## Lab4 - Separate tasks and handlers to different folders
 
 ## Lab5 - Roles using Ansible Galaxy
+
+## Lab6 - Using Tags
+
+## Lab7 - Ansible Variables
+
+## Lab8 - Multiple inventory files

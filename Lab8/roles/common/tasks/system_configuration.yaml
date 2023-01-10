@@ -1,0 +1,5 @@
+- name: Copy host file
+  template:
+    src: hosts.j2
+    dest: /etc/hosts
+  tags: always
